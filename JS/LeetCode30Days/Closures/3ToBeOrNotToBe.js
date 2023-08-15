@@ -14,11 +14,31 @@
 //     }
 // }
 
-for (let i = 0; i < 3; i++) {
-    const log = () => {
-        debugger
-        console.log(i)
-    }
+// for (let i = 0; i < 3; i++) {
+//     const log = () => {
+//         debugger
+//         console.log(i)
+//     }
 
-    setTimeout(log, 10)
+//     setTimeout(log, 10)
+// }
+
+let arr = [1,2,3,4,5,6,7,8,9,10]
+
+// function plusI(n, i) { return n + i}
+// function plusone(n) { return n + 1}
+// function constant(n, i) { return 42}
+
+// let map = function(arr, fn) {
+//     let result = []
+//     for (let i in arr) {
+//         console.log(i)
+//         result.push(fn(arr[i], i))
+//     }
+//     console.log(result)
+// }
+
+// map(arr, plusI)
+for (let i in arr) {
+    console.log(typeof i)
 }
